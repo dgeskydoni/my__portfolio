@@ -49,15 +49,14 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/logo game.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Cash-Out: Endless Runner & Play-To-Earn
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                An app built with Flutter for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -72,13 +71,6 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>The Library Management Platform</h2>
-            </div>
-
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
-              </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
             </div>
           </div>
         </div>
